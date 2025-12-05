@@ -2,7 +2,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -18,10 +17,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="en">
+    <html lang="en">
       <body className={`${inter.variable} font-sans bg-black text-white min-h-screen`}>
         {children}
-        <Analytics />
       </body>
     </html>
   );
