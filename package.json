@@ -12,7 +12,7 @@
     "@nylas/nylas-nodejs": "^7.3.0",
     "@supabase/auth-helpers-nextjs": "^0.10.0",
     "@supabase/supabase-js": "^2.45.4",
-    "@vercel/analytics": "^1.3.1",
+    "@vercel/analytics": "1.3.1",
     "next": "15.0.0-rc.0",
     "react": "19.0.0-rc-f994737d14-20240522",
     "react-dom": "19.0.0-rc-f994737d14-20240522",
@@ -32,5 +32,8 @@
     "tailwindcss": "^3.4.13",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.5.4"
+  },
+  "resolutions": {
+    "@vercel/analytics": "1.3.1"
   }
 }
