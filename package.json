@@ -1,4 +1,3 @@
-// path: package.json
 {
   "name": "salesplatform-org-v1",
   "version": "1.0.0",
@@ -9,10 +8,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
-  "overrides": {
-    "react": "$react",
-    "react-dom": "$react-dom"
   },
   "dependencies": {
     "@supabase/ssr": "^0.5.1",
