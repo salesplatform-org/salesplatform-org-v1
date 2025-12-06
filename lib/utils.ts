@@ -1,4 +1,3 @@
-// path: lib/utils.ts (create this file if missing)
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
