@@ -1,4 +1,3 @@
-// path: app/alpha/layout.tsx
 import { createServerClient } from "@/lib/supabase/server";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
